@@ -1,14 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "12";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
 
 client.on('ready', async() => {
-var server = "518848666216431636"; // ايدي السررفر
-var channel = "518865821259268097";//ايدي الروم
+var server = "521447316897660970"; // ايدي السررفر
+var channel = "523983088766943242";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },305);
@@ -29,6 +29,12 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
    message.delete()
   }
  });
+
+
+
+
+
+
 
  
 client.login(process.env.BOT_TOKEN);
