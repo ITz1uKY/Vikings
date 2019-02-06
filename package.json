@@ -36,7 +36,7 @@
     "ytdl-core": "^0.20.3",
     "common-tags": "^1.8.0",
     "figlet": "^1.2.1",
-    "google-it": "^1.2.1"
+    "google-it": "1.1.1"
   },
   "engines": {
     "node": "8.4.0"
