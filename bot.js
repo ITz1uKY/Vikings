@@ -25,8 +25,6 @@ client.on('message', message => {
 
  message.author.sendMessage(`
 **Dynasty System** By: ITz1uKY
-
-
 ╔[❖════════════❖]╗
              Prefix = ' ! '
 ╚[❖════════════❖]╝
@@ -93,22 +91,6 @@ client.on('message', message => {
 ❖ !daily ➾ to take your daily credits
 
 ❖ !trans <@mention> <amount> ➾ transfer credits 
-
-╔[❖════════════❖]╗
-            Music Commands
-╚[❖════════════❖]╝
-
-❖ !join ➾ the bot join your room
-
-❖ !play <url> ➾ play any music 
-
-❖ !stop ➾ stop the music and leave the room
-
-❖ !pause ➾ pause the music
-
-❖ !resume ➾ resume the music
-
-==================================================================
 `);
 
     }
