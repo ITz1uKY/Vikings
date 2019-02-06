@@ -1017,60 +1017,6 @@ hours = 12;
 
 
 
-
-
-client.on('message', message => {
-              if (!message.channel.guild) return;
-      if(message.content =='!count')
-      var SaifDz = new Discord.RichEmbed()
-      .setThumbnail(message.author.avatarURL)
-      .setFooter(message.author.username, message.author.avatarURL)
-      .setTitle('🌷| Members info')
-      .addField('عدد اعضاء السيرفر',`${message.guild.memberCount}`)
-      message.channel.send(SaifDz);
-    });
-
-
-
-
-client.on('message', message => {
- 
-  if (message.content.startsWith( prefix + "sug")) {
-  if (!message.channel.guild) return;
-  let args = message.content.split(" ").slice(1).join(' ');
-  client.channels.get("542492678462504981").send(
-      "\n" + "**" + "● اقتراحات سيرفر :" + "**" +
-      "\n" + "**" + "» " + message.guild.name + "**" +
-      "\n" + "**" + " ● مرسل الاقتراح : " + "**" +
-      "\n" + "**" + "» " + message.author.tag + "**" +
-      "\n" + "**" + " ● الاقتراح : " + "**" +
-      "\n" + "**" + args + "**")
-  }
-  });
-
-
-
-
-
-
-client.on('message', message => { 
-    if (message.content.startsWith(prefix + 'roles')) {
-
-        const Rank = message.guild.roles.map(e => e.toString()).join(" ");
-
-        const RankList = new Discord.RichEmbed()
-            .setTitle('➠ Roles.') 
-            .setAuthor(message.guild.name, message.guild.iconURL) 
-            .setColor('RANDOM') 
-            .setDescription(Rank) 
-            .setFooter(message.guild.name) 
-        message.channel.send(RankList) 
-    }
-});
-
-
-
-
 client.on('message', message => {
         if(message.content.startsWith(prefix + 'mutevoice')) {
           if(!message.member.hasPermission("MUTE_MEMBERS")) return message.channel.sendMessage("**ليس لديك صلاحية لاعطاء ميوت صوتي**❌ ").then(m => m.delete(5000));
