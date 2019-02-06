@@ -5,7 +5,9 @@
   "main": "bot.js",
   "repository": "",
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
-  "dependencies": {
+  "devDependencies": {
+  "express": ">=3.11.0"
+}: {
     "ascii-data-table": "^2.1.1",
     "async": "~0.2.8",
     "canvas": "^1.6.11",
