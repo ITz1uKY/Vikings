@@ -36,6 +36,7 @@
     "ytdl-core": "^0.20.3",
     "common-tags": "^1.8.0",
     "figlet": "^1.2.1",
+    "pretty-ms": "^3.1.0",
     "google-it": "^1.1.1",
     "zalgolize": "^1.2.4"
   },
