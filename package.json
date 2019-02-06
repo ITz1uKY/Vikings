@@ -14,6 +14,7 @@
     "discord.js": "^11.3.2",
     "gif-search": "^2.0.1",
     "giphy-api": "^2.0.1",
+    "goo.gl": "^0.1.4",
     "express": "^4.16.3",
     "ffmpeg": "0.0.4",
     "ffmpeg-binaries": "^3.2.2-3",
