@@ -34,7 +34,8 @@
     "sqlite3": "^4.0.0",
     "youtube-info": "^1.2.0",
     "ytdl-core": "^0.20.3",
-    "common-tags": "^1.8.0"
+    "common-tags": "^1.8.0",
+    "figlet": "^1.2.1"
   },
   "engines": {
     "node": "8.4.0"
